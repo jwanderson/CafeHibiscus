@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Hibiscus</title>
+  <link href="scss/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+</head>
+<body class="drawer drawer--right">
+  <button type="button" class="drawer-toggle drawer-hamburger">
+    <span class="sr-only">toggle navigation</span>
+    <span class="drawer-hamburger-icon"></span>
+  </button>
+  <nav class="drawer-nav" role="navigation">
+      <ul class="drawer-menu">
+        <li><a class="drawer-menu-item" href="#about">ABOUT</a></li>
+        <li><a class="drawer-menu-item" href="#menu">MENU</a></li>
+        <li><a class="drawer-menu-item" href="#access">ACCESS</a></li>
+        <li><a class="drawer-menu-item" href="#party">PARTY PLAN</a></li>
+        <li><a class="drawer-menu-item" href="#contact">CONTACT</a></li>
+        <li><a class="drawer-menu-item" href="#help">HELP WANTED</a></li>
+      </ul>
+  </nav>
+
+  <nav>
+    <div class="navbar">
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#access">ACCESS</a></li>
+        <li><a href="#party">PARTY PLAN</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#help">HELP WANTED</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <div class="top">
+      <div class="title">
+        <h1>Hibiscus</h1>
+        <p>Cafe & Restaurant</p>
+      </div>
+    </div>
+    <div id="about">
+      <h2 class="Text"> <span class="about-Span JS_ScrollAnimationItem">ABOUT</span> </h2>
+      <div class="about">
+        <div class="aboutimg">
+          <img src="img/hibiscus.jpg" alt="">
+        </div>
+        <div class="abouttext">
+          <p>Cafe Hibiscus とは、ハワイのビーチをイメージしたカフェレストラン。<br>
+            天然木をふんだんにあしらった店内は自然の雰囲気が感じられ、
+            <br>贅沢に配置された席はまるでビーチに居るようなゆったり
+            <br>とした空間で、プライベートな時間を過ごす事が出来ます。</p>
+            <p>営業時間<br>
+              
+              平日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:00 - 23:00（L.O.22:00)<br>
+              土日祝&nbsp;&nbsp;09:00 - 23:00（L.O.22:00)<br>
+              <br>
+              座席数 54席<br>
+              年末年始の営業時間は変更になります。<br>
+              モーニング・ランチ・ティータイム・ディナーと、どんなシーンにでも使えます。</p>
+        </div>
+      </div>
+    </div>
+
+    
+      <div class="swiper-container" id="menu">
+        <!-- Sliderのラッパー(各スライドを内包する箱みたいなイメージ) -->
+        <div class="swiper-wrapper">
+            <!-- Slideさせたいコンテンツ -->
+            <div class="swiper-slide">
+              <div>
+                <p class="menutitle">MEAT</p>
+                <p class="menudesc">ジューシーなお肉にチーズやアボカドを添えて</p>
+              </div>
+              <img src="img/menu.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <p class="menutitle">MEAT</p>
+                <p class="menudesc">ジューシーなお肉にチーズやアボカドを添えて</p>
+              </div>
+              <img src="img/menu.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <p class="menutitle">MEAT</p>
+                <p class="menudesc">ジューシーなお肉にチーズやアボカドを添えて</p>
+              </div>
+              <img src="img/menu.jpg" alt="">
+            </div>
+           
+            
+        </div>
+        <!-- ページネーション（※省略可） -->
+        <div class="swiper-pagination"></div>
+        <!-- ナビゲーションボタン（※省略可） -->
+        <div class="swiper-button-prev"></div> 
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="recommend">
+        <h2 class="Text"> <span class="reco-Span JS_ScrollAnimationItem">Recommendation</span> </h2>
+        <div class="recocontents">
+          <div>
+            <img src="img/recomend.jpg" alt="" class="sa sa--rotateR">
+            <p>アイス<br>うまいうまいうまいうまい<br>うまいうまいうまい</p>
+          </div>
+          <div>
+            <img src="img/recomend.jpg" alt="" class="sa sa--rotateR">
+            <p>アイス<br>うまいうまいうまいうまい<br>うまいうまいうまい</p>
+          </div>
+          <div>
+            <img src="img/recomend.jpg" alt="" class="sa sa--rotateR">
+            <p>アイス<br>うまいうまいうまいうまい<br>うまいうまいうまい</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="party">
+        <div class="filter"><img src="img/party.jpg" alt=""></div>
+        <div class="plan">
+          <h2 class="Text"> <span class="party-Span JS_ScrollAnimationItem">PARTY PLAN</span> </h2>
+          <div><button><a href="">予約</a></button></div>
+        </div>
+      </div>
+
+      <div id="access">
+        <h2 class="Text"> <span class="access-Span JS_ScrollAnimationItem">ACCESS</span> </h2>
+        <p>東京都〇〇区〇〇町13-8<br>
+          〇〇〇マンション〇〇101<br>
+          <br>
+          Tel. 080-1225-1112<br>
+          Open 12:00 - Close 21:00</p>
+          <div class="gmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416441.7378915319!2d139.5934580243894!3d35.36926678146247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60180d4ce569db31%3A0x7d530179db9851d8!2z5p2x5Lqs5rm-!5e0!3m2!1sja!2sjp!4v1593144573132!5m2!1sja!2sjp" width="800" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+      </div>
+
+
+      <div id="contact">
+        <h2 class="Text"> <span class="contact-Span JS_ScrollAnimationItem">CONTACT</span> </h2>
+        <div>
+          <ul class="snsbtniti">
+            <li><a href="TwitterのプロフィールURL" class="flowbtn fl_tw1"
+            ><i class="fab fa-twitter"></i><div>Twitter</div></a></li>
+            <li><a href="インスタのプロフィールURL" class="flowbtn insta_btn1"><i class="fab fa-instagram"></i><div>Instagram</div></a></li>
+            <li><a href="FacebookページのURL" class="flowbtn fl_fb1"><i class="fab fa-facebook-f"></i><div>Facebook</div></a></li>
+            <li><a href="お問い合わせ先のURL" class="flowbtn fl_ma1"><i class="far fa-envelope"></i><div>Contact</div></a></li>
+        </div>
+      </div>
+
+      <div id="help">
+        <h2 class="Text"> <span class="help-Span JS_ScrollAnimationItem">アルバイト募集中</span> </h2>
+        <div><img src="img/pattime.jpg" alt=""></div>
+        <div>
+          <p>時給：1000円<br>
+            応募資格：高卒以上</p>
+        </div>
+      </div>
+    
+  </main>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+  <script>
+    var mySwiper = new Swiper ('.swiper-container', {
+  
+  loop: true,
+  pagination: '.swiper-pagination',
+  nextButton: '.swiper-button-next',
+  prevButton: '.swiper-button-prev',
+})
+
+var scrollAnimationElm = document.querySelectorAll('.sa');
+var scrollAnimationFunc = function() {
+  for(var i = 0; i < scrollAnimationElm.length; i++) {
+    var triggerMargin = 300;
+    if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
+      scrollAnimationElm[i].classList.add('show');
+    }
+  }
+}
+window.addEventListener('load', scrollAnimationFunc);
+window.addEventListener('scroll', scrollAnimationFunc);
+
+
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+   </script
+  
+</body>
+</html>
